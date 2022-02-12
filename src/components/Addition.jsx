@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "./Addition.css";
 class Addition extends Component {
   state = {
-    num1: 0,
-    num2: 0,
-    response: 0,
+    num1: 2,
+    num2: 4,
+    response: 6,
     score: 0,
   };
   changeState() {
